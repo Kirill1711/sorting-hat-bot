@@ -1,0 +1,23 @@
+# зависимости
+node_modules/
+
+# секреты (токен бота, пароли БД)
+.env
+.env.*
+!.env.example
+
+# результат сборки
+dist/
+
+# логи
+*.log
+npm-debug.log*
+
+# pm2
+.pm2/
+
+# система и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
